@@ -22,6 +22,10 @@ class _CustomRadioState extends State<CustomRadio> {
           dense: false,
           contentPadding: EdgeInsets.zero,
           groupValue: _pickup,
+          visualDensity: const VisualDensity(
+            horizontal: VisualDensity.minimumDensity,
+            vertical: VisualDensity.minimumDensity,
+          ),
           onChanged: (pickup) {
             if (pickup == null) return;
             setState(() {
@@ -43,6 +47,10 @@ class _CustomRadioState extends State<CustomRadio> {
           contentPadding: EdgeInsets.zero,
           dense: true,
           groupValue: _pickup,
+          visualDensity: const VisualDensity(
+            horizontal: VisualDensity.minimumDensity,
+            vertical: VisualDensity.minimumDensity,
+          ),
           onChanged: (pickup) {
             if (pickup == null) return;
             setState(() {

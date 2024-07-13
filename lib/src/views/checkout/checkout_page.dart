@@ -48,8 +48,9 @@ class CheckoutPage extends ConsumerWidget {
                   ),
                   const SizedBox(height: 21.0),
                   const TexFieldLabel(text: 'Pickup'),
+                  const SizedBox(height: 8.0),
                   const CustomRadio(),
-                  const SizedBox(height: 21.0),
+                  const SizedBox(height: 35.0),
                   const TexFieldLabel(text: 'Delivery'),
                   const SizedBox(height: 12.0),
                   const SizedBox(

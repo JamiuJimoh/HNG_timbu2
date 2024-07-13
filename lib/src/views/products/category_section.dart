@@ -41,8 +41,18 @@ class _CategorySectionState extends State<CategorySection> {
               itemCount: _page,
               onPageChanged: (i) => setState(() => _currentPage = i),
               itemBuilder: (_, i) {
+                // to show 2 products on individual PageView, they have to
+                // be divided into pages => 6 products meaning 3 pages i.e
+                // 6/2. Now, for the index of those pages, I came up with this
+                // formular. i1 and i2 signifies the indices of 2 items of each page.
+                // When i = 0; i1 = 0 and i2 = 1
+                // When i = 1; i1 = 2 and i2 = 3
+                // When i = 2; i1 = 4 and i2 = 5
                 final i1 = i + (i + 0);
                 final i2 = i + (i + 1);
+
+                // checking for boundary incase so we don't access an item with
+                // an index that don't exist
                 final lastIndexReached = i2 >= widget.products.length;
 
                 return Row(
