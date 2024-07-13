@@ -7,8 +7,8 @@ could have more than one photos.
 
 
 
-Test the app on [Appetize](https://appetize.io/app/b_bvoxqhwqmebrtpgwzzu4tc5hbq?device=pixel7&osVersion=13.0)
-or download the [apk](https://drive.google.com/file/d/1pm4gT2uB1YDs3CBCBDg6fyTmcOa2ot5D/view?usp=sharing)
+Test the app on [Appetize](https://appetize.io/app/b_w3osz6chizmw3t3gprt6pub6om?device=pixel7&osVersion=13.0)
+or download the [apk](https://drive.google.com/file/d/1Co8PGFSNbE7Cl9cGqVaLie0I95TY3kHg/view?usp=sharing)
 
 
 ## Steps to run locally
