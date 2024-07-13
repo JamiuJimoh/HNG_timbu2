@@ -1,4 +1,4 @@
-# HNG_timbu
+# HNG_timbu2
 An app that implements the [timbu API](https://docs.timbu.cloud/api/intro).
 This app has 2 pages. A products page and a product details page. Each products
 could have more than one photos.
